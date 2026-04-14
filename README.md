@@ -6,6 +6,20 @@
 
 ---
 
+## ⚡ TL;DR
+
+Diseñé y desplegué un sitio asistido por AI, combinando diseño web, lógica backend custom y automatización con CRM (Go High Level).
+
+- Construcción end-to-end del flujo de usuario (landing → captura → secuencia automatizada)
+- Desarrollo de plugin custom en WordPress (PHP, AJAX, controles de seguridad)
+- Integración con CRM (Go High Level) y workflows automatizados
+- Uso de AI como copiloto para contenido, UX y resolución de problemas
+
+→ **Resultado:** transformación de una presencia estática en redes en un sistema escalable de adquisición
+
+---
+
+
 ## 📌 Contexto del Proyecto
 
 **Cliente:** Emprendedora independiente del sector de turismo consciente/espiritual con comunidad activa en Instagram (viajes grupales y personalizados a destinos sagrados de Argentina y el mundo).
@@ -147,10 +161,9 @@ Workflow "Descarga LM" se dispara
 
 ## 💡 Aprendizajes clave
 
-- **El primer sistema que funciona no siempre es el correcto.** El formulario con PHPMailer entregaba mails, pero dejaba el CRM ciego. Identificar ese gap y rediseñar fue más valioso que el sistema inicial.
+- **El primer sistema que funciona no siempre es el correcto.** El formulario con PHPMailer entregaba mails, pero dejaba el CRM ciego. Identificar ese gap y rediseñar fue valioso.
 - **Las constraints del cliente son datos, no obstáculos.** El logo y la identidad visual no eran negociables — eso simplificó las decisiones de diseño en vez de complicarlas.
-- **Integrar el CRM desde el diseño inicial evita retrabajos costosos.** Pensar en el flujo completo del lead, no solo en el formulario visible, es la diferencia entre un sitio y un sistema.
-- **La seguridad no es opcional en proyectos pequeños.** Nonce, rate limiting y sanitización doble en un formulario de contacto de una pyme son tan necesarios como en cualquier otro contexto.
+- **Inyección de seguridad.** Nonce, rate limiting y sanitización doble en un formulario de contacto de una pyme son tan necesarios como en cualquier otro contexto.
 - **Las herramientas de AI generativa aceleran el prototipado** pero requieren criterio para adaptar el output al contexto real de la marca.
 
 ---
