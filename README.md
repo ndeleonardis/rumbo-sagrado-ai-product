@@ -1,6 +1,6 @@
 # 🌿 Rumbo Sagrado — Sitio Web de Turismo Consciente y Espiritual
 
-> **Caso de producto real:** Diseño, desarrollo e integración end-to-end de un sitio web para una emprendedora de turismo alternativo, partiendo de una presencia en Instagram y un Linktree, hasta construir un ecosistema digital completo con captura de leads automatizada, email marketing y SEO técnico.
+> **Caso de producto real:** Diseño, desarrollo e integración end-to-end de un sitio web para una emprendedora de turismo alternativo, partiendo de una presencia en Instagram y un Linktree, hasta construir un sitio digital completo con captura de leads automatizada, email marketing y SEO técnico.
 
 🔗 **Sitio en producción:** [rumbosagrado.com](https://www.rumbosagrado.com)
 
